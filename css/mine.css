@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+}
+
+.countainer {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+.nav {
+    display: flex;
+    gap: 20px;
+    padding: 44px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    justify-content: end;
+    display: flex;
+    gap: 33px;
+    list-style: none;
+}
+
+
+.nav-item li a {
+    text-decoration: none;
+    color: #83888F;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 0px;
+    opacity: 0px;
+    transition: 0.3s;
+}
+
+.nav-item li a:hover {
+    color: #333D4B;
+}
+
+.nav-item li a:active {
+    transform: scale(0.9);
+    font-size: 15px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.baground-img {
+    height: 600px;
+    background-image: url("../img/Bitmap.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 85px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+
+.bg {
+    width: 493px;
+    height: 367px;
+    top: 117px;
+    left: 85px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.bg-text {
+    width: 493px;
+    height: 255px;
+    top: 230px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.bg-text h2 {
+    color: white;
+    max-width: 493px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: left;
+
+
+}
+
+.bg-text p {
+    max-width: 445px;
+    top: 177px;
+    gap: 0px;
+    opacity: 0.8px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #FEFCF7;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    gap: 15px;
+}
+
+.Gran {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px 20px;
+}
+
+
+.Gran h3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Gran p {
+    top: 6px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Gran img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}

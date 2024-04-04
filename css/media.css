@@ -1,0 +1,66 @@
+@media only screen and (max-width:868px) {
+    .countainer {
+        max-width: 788px;
+    }
+
+    .nav-item li a {
+        font-size: 12px;
+    }
+
+    .baground-img{
+        padding: 58px;
+        background-image: url(../img/Bitmap\ \(1\).png);
+        height: 500px;
+        border-radius: 12px;
+    }
+
+    .bg-text h2{
+        font-size: 48px;
+    }
+
+    .products{
+        flex-direction: column;
+    }
+
+    .Gran{
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width:540px) {
+    .countainer {
+        max-width: 500px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .baground-img {
+        background-image: url("../img/hero-bg-mob.jpg");
+    }
+    .products {
+        flex-direction: column;
+    }
+
+    .baground-img{
+        padding: 24px;
+    }
+
+    .bg-tex h2{
+        font-size: 40px;
+    }
+
+    .Gran{
+        flex-direction: column;
+    }
+}
